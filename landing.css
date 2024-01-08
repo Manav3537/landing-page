@@ -70,7 +70,6 @@
 
   .image {
    position: relative;
-   object-fit: property;
   }
 
   /* mid styles */
@@ -184,6 +183,26 @@
     color: white;
     font-weight: bold;
     font-size: 16px;
+  }
+
+  /* bottom styles */
+
+  .bottom-container {
+    background-color: black;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-text {
+    color: white;
+    font-size: 18px;
+    font-family: roboto;
   }
 
   /* image styles */
