@@ -43,11 +43,12 @@
   }
 
   .header-info {
-    width: 650px;
-    height: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px
   }
 
   .header-main {
@@ -69,7 +70,8 @@
   }
 
   .image {
-   position: relative;
+    width: 400px;
+    height: 350px;
   }
 
   /* mid styles */
@@ -203,6 +205,7 @@
     color: white;
     font-size: 18px;
     font-family: roboto;
+    content: \0089;
   }
 
   /* image styles */
