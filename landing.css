@@ -30,8 +30,12 @@
   .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin: 20px;
+    margin: 15px;
+    margin-bottom: 5px;
     font-weight: bold;
+    height: 60px;
+    width: 90px;
+    border-radius: 7px;
   }
 
   /* header styles */
@@ -40,6 +44,8 @@
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 90px;
   }
 
   .header-info {
@@ -48,7 +54,6 @@
     flex-direction: column;
     flex-basis: 400px;
     text-align: left;
-    margin-right: 50px
   }
 
   .header-main {
@@ -67,11 +72,14 @@
     color: white;
     padding: 8px 30px;
     margin: 8px 0;
+    border: none;
   }
 
-  .image {
-    width: 400px;
-    height: 350px;
+  .header-image {
+    width: 500px;
+    height: 300px;
+    display: flex;
+
   }
 
   /* mid styles */
@@ -89,6 +97,10 @@
     display: flex;
     justify-content: center;
     gap: 52px;
+    
+    background-size: 1370px 380px;
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
 
   .mid-info {
@@ -102,9 +114,17 @@
     width: auto;
   }
 
+  .square-pic {
+    object-fit: cover;
+    height: 172px;
+    width: 180px;
+    border-radius: 6px; 
+  }
+
   .square-desc {
     margin-top: 10px;
     margin-bottom: 130px;
+    text-align: center;
   }
 
   /* body styles */
@@ -210,11 +230,4 @@
 
   /* image styles */
 
-  .image {
-    display: flex;
-    
-    color: white;
-    align-self: center;
-    height: 300px;
-    
-  }
+  
